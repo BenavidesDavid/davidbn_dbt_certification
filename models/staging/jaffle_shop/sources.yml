@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: DAVIDBN_DBT_CREDENTIALS
+    schema: DBT_BENAVIDESDAVID
+    tables:
+      - name: customers
+      - name: orders

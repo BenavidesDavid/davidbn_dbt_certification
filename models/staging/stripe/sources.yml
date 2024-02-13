@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: DAVIDBN_DBT_CREDENTIALS
+    schema: DBT_BENAVIDESDAVID
+    tables:
+      - name: payments
